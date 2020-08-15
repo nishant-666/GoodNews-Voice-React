@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/GoodNews-Voice-React/static/css/main.79aeeedd.chunk.css",
-    "main.js": "/GoodNews-Voice-React/static/js/main.ff6c4d19.chunk.js",
-    "main.js.map": "/GoodNews-Voice-React/static/js/main.ff6c4d19.chunk.js.map",
+    "main.js": "/GoodNews-Voice-React/static/js/main.4a3c3533.chunk.js",
+    "main.js.map": "/GoodNews-Voice-React/static/js/main.4a3c3533.chunk.js.map",
     "runtime-main.js": "/GoodNews-Voice-React/static/js/runtime-main.3a6b58a9.js",
     "runtime-main.js.map": "/GoodNews-Voice-React/static/js/runtime-main.3a6b58a9.js.map",
     "static/css/2.06a7e8f7.chunk.css": "/GoodNews-Voice-React/static/css/2.06a7e8f7.chunk.css",
     "static/js/2.5425b25c.chunk.js": "/GoodNews-Voice-React/static/js/2.5425b25c.chunk.js",
     "static/js/2.5425b25c.chunk.js.map": "/GoodNews-Voice-React/static/js/2.5425b25c.chunk.js.map",
     "index.html": "/GoodNews-Voice-React/index.html",
-    "precache-manifest.63419f135e489025b8186413f9598bde.js": "/GoodNews-Voice-React/precache-manifest.63419f135e489025b8186413f9598bde.js",
+    "precache-manifest.e446a5004c52d57d031918027d22f79d.js": "/GoodNews-Voice-React/precache-manifest.e446a5004c52d57d031918027d22f79d.js",
     "service-worker.js": "/GoodNews-Voice-React/service-worker.js",
     "static/css/2.06a7e8f7.chunk.css.map": "/GoodNews-Voice-React/static/css/2.06a7e8f7.chunk.css.map",
     "static/css/main.79aeeedd.chunk.css.map": "/GoodNews-Voice-React/static/css/main.79aeeedd.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.06a7e8f7.chunk.css",
     "static/js/2.5425b25c.chunk.js",
     "static/css/main.79aeeedd.chunk.css",
-    "static/js/main.ff6c4d19.chunk.js"
+    "static/js/main.4a3c3533.chunk.js"
   ]
 }
