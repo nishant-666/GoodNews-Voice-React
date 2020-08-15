@@ -5,9 +5,9 @@ import NewsCard from './NewsCard/NewsCard';
 import useStyles from './styles.js';
 import { Card } from 'semantic-ui-react'
 const infoCards = [
-  { color: '#ff9800', title: 'Explore Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology.', text: 'Say give me the latest Technology news!' },
-  { color: '#4caf50', title: 'Explore Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Narendara Modi', text: 'Say what\'s up with PlayStation 5?' },
-  { color: '#f44336', title: 'Explore Sources', info: 'CNN, Wired, Time, IGN, Buzzfeed', text: 'Say give me the news from CNN!' },
+  { color: '#ff9800', title: 'Categories', info: 'Example - Business, Entertainment, General, Health, Science, Sports, Technology.', text: 'Say give me the latest Business news!' },
+  { color: '#4caf50', title: 'Topics', info: 'Example - Bitcoin, PlayStation 5, Smartphones, Narendara Modi..', text: 'Say what\'s up with Smartphones?' },
+  { color: '#f44336', title: 'News Sources', info: 'Example - CNN, Wired, Time, IGN, Buzzfeed..', text: 'Say give me the news from CNN!' },
 ];
 
 const NewsCards = ({ articles, activeArticle }) => {
@@ -20,7 +20,7 @@ const NewsCards = ({ articles, activeArticle }) => {
            Welcome to GoodNews.
          </Typography>
          <Typography variant="body2" color="textSecondary" style={{fontFamily:'PT Sans',fontSize:20,textAlign:'center',marginBottom:20,padding:10}} component="h2">
-          Click the mic button and say <span style={{color:'#ff5722'}}><b><i>Give me the latest news!</i></b></span>
+          Press the mic button and say <span style={{color:'#ff5722'}}><b><i>Give me the latest news!</i></b></span>
          </Typography>
 
       <Grow in>
