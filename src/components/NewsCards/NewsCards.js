@@ -6,7 +6,7 @@ import useStyles from './styles.js';
 import { Card } from 'semantic-ui-react'
 const infoCards = [
   { color: '#ff9800', title: 'Explore Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology.', text: 'Say give me the latest Technology news!' },
-  { color: '#4caf50', title: 'Expore Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Donald Trump...', text: 'Say what\'s up with PlayStation 5?' },
+  { color: '#4caf50', title: 'Explore Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Narendara Modi', text: 'Say what\'s up with PlayStation 5?' },
   { color: '#f44336', title: 'Explore Sources', info: 'CNN, Wired, Time, IGN, Buzzfeed', text: 'Say give me the news from CNN!' },
 ];
 
