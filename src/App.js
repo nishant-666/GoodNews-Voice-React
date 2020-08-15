@@ -5,7 +5,7 @@ import './style.css'
 import logo from './images/GOODNews.png';
 import { NewsCards, Modal } from './components';
 import useStyles from './styles';
-
+import { Grid, Grow, Typography } from '@material-ui/core';
 const App = () => {
   const [activeArticle, setActiveArticle] = useState(0);
   const [newsArticles, setNewsArticles] = useState([]);
@@ -44,10 +44,18 @@ const App = () => {
   return (
     <div>
       <div className={classes.logoContainer}>
-        
+      
         <img src={logo} className={classes.alanLogo} alt="logo" />
+        
       </div>
+      {newsArticles.length ? (
+          <div className={classes.infoContainer}>
+            <Typography variant="h5" component="h2" style={{fontFamily:'Roboto Slab',marginTop:20,marginBottom:20}}>Say open article 4th to open 4th article!</Typography>
+          
+          </div>
+        ) : null}
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
+      
       <Modal isOpen={isOpen} setIsOpen={setIsOpen} />
       
     </div>
