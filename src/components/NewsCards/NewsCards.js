@@ -15,6 +15,14 @@ const NewsCards = ({ articles, activeArticle }) => {
 
   if (!articles.length) {
     return (
+      <div>
+         <Typography variant="body2" color="textSecondary" style={{fontFamily:'PT Sans',fontSize:26,textAlign:'center',marginBottom:20,padding:10}} component="h2">
+           Welcome to GoodNews.
+         </Typography>
+         <Typography variant="body2" color="textSecondary" style={{fontFamily:'PT Sans',fontSize:20,textAlign:'center',marginBottom:20,padding:10}} component="h2">
+          Click the mic button and say <span style={{color:'#ff5722'}}><b><i>Give me the latest news!</i></b></span>
+         </Typography>
+
       <Grow in>
         <Grid className={classes.container} container alignItems="stretch" spacing={3} style={{marginBottom:20}}>
           {infoCards.map((infoCard) => (
@@ -32,6 +40,7 @@ const NewsCards = ({ articles, activeArticle }) => {
         </Grid>
         
       </Grow>
+      </div>
     );
   }
 
