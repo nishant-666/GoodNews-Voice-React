@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/GoodNews-Voice-React/precache-manifest.f0425d7dca1a7bf4d2b72a0aed5501b4.js"
+  "/GoodNews-Voice-React/precache-manifest.e901c150d85ab1f73c1535a42b3cba77.js"
 );
 
 self.addEventListener('message', (event) => {
