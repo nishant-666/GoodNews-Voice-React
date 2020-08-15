@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7d5bb6d42799c1bbe52956e0d2fbf10",
+    "revision": "80e4f8aac284e749ff3a32325644b15a",
     "url": "/GoodNews-Voice-React/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GoodNews-Voice-React/static/css/2.06a7e8f7.chunk.css"
   },
   {
-    "revision": "342d2dacf16f87788fc4",
+    "revision": "e2bdbb604b39d076ad19",
     "url": "/GoodNews-Voice-React/static/css/main.79aeeedd.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GoodNews-Voice-React/static/js/2.c7b465f5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "342d2dacf16f87788fc4",
-    "url": "/GoodNews-Voice-React/static/js/main.a28ebf5d.chunk.js"
+    "revision": "e2bdbb604b39d076ad19",
+    "url": "/GoodNews-Voice-React/static/js/main.a5649550.chunk.js"
   },
   {
     "revision": "191933c1ee7975e08340",
