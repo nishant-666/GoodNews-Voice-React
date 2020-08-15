@@ -24,18 +24,18 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
   return (
     <Card  ref={elRefs[i]} className={classNames(classes.card, activeArticle === i ? classes.activeCard : null)}>
       <CardActionArea href={url} target="_blank">
-        <CardMedia className={classes.media} image={urlToImage || 'https://bitsofco.de/content/images/2018/12/broken-1.png'} title={title} />
+        <CardMedia className={classes.media} image={urlToImage || 'https://bitsofco.de/content/images/2018/12/broken-1.png'} style={{borderRadius:30}} title={title} />
         <div className={classes.details}>
-          <Typography variant="body2" color="textSecondary" style={{fontFamily:'PT Sans',fontSize:16}} component="h2">{(new Date(publishedAt)).toDateString()}</Typography>
-          <Typography variant="body2" color="textSecondary" style={{fontFamily:'PT Sans',fontSize:16}} component="h2">{source.name}</Typography>
+          <Typography variant="body2" color="textSecondary" style={{fontFamily:'PT Sans',fontSize:14}} component="h2">{(new Date(publishedAt)).toDateString()}</Typography>
+          <Typography variant="body2" color="textSecondary" style={{fontFamily:'PT Sans',fontSize:14}} component="h2">{source.name}</Typography>
         </div>
-        <Typography className={classes.title} style={{fontFamily:'PT Sans',fontSize:20}} gutterBottom variant="h5" component="h2">{title}</Typography>
+        <Typography className={classes.title} style={{fontFamily:'PT Sans',fontSize:18}} gutterBottom variant="h5" component="h2">{title}</Typography>
         <CardContent>
-          <Typography variant="body2" style={{fontFamily:'PT Sans',fontSize:16}} color="textSecondary" component="p">{description}</Typography>
+          <Typography variant="body2" style={{fontFamily:'PT Sans',fontSize:14}} color="textSecondary" component="p">{description}</Typography>
         </CardContent>
       </CardActionArea>
       <CardActions className={classes.cardActions}>
-        <Button size='large' color='orange' style={{fontFamily:'PT Sans'}} href={url}>Explore</Button>
+        <Button size='large' color='orange' style={{fontFamily:'PT Sans',borderRadius:15}} href={url}>Explore</Button>
         <Typography style={{fontFamily:'PT Sans'}} variant="h5" color="textSecondary" component="h2">{i + 1}</Typography>
       </CardActions>
     </Card>

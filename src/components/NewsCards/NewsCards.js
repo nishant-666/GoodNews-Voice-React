@@ -20,10 +20,10 @@ const NewsCards = ({ articles, activeArticle }) => {
           {infoCards.map((infoCard) => (
             <Grid item xs={12} sm={12} md={4} lg={4} className={classes.infoCard}>
               <div className={classes.card} style={{ backgroundColor: infoCard.color }}>
-                <Card.Content header={infoCard.title} style={{fontSize:29,fontFamily:'Roboto Slab'}} />
+                <Card.Content header={infoCard.title} style={{fontSize:22,fontFamily:'Roboto Slab'}} />
                
-                {infoCard.info ? <Typography variant="h6" style={{fontSize:20,fontFamily:'Roboto Slab'}} component="h6"><strong>{infoCard.title.split(' ')[2]}</strong> <br />{infoCard.info}</Typography> : null}
-                <Typography variant="h6" component="h6" style={{fontSize:20,marginTop:20,fontFamily:'PT Sans'}}><i>{infoCard.text}</i></Typography>
+                {infoCard.info ? <Typography variant="h6" style={{fontSize:18,fontFamily:'Roboto Slab'}} component="h6"><strong>{infoCard.title.split(' ')[2]}</strong> <br />{infoCard.info}</Typography> : null}
+                <Typography variant="h6" component="h6" style={{fontSize:18,marginTop:20,fontFamily:'PT Sans'}}><i>{infoCard.text}</i></Typography>
               </div>
 
             </Grid>
