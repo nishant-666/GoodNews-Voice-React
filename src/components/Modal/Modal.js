@@ -39,19 +39,19 @@ const Modal = ({ isOpen, setIsOpen, showFeedback }) => {
         <Divider />
         <div className={classes.infoContainer}>
           <Typography style={{fontFamily:'PT Sans'}} variant="h5">News by Categories</Typography>
-          <div className={classes.chipContainer}>{['Business', 'Entertainment', 'General', 'Health', 'Science', 'Sports', 'Technology'].map((category) => <Chip label={category} style={{fontFamily:'PT Sans'}} color="primary" className={classes.chip} />)}</div>
+          <div className={classes.chipContainer}>{['Business', 'Entertainment', 'General', 'Health', 'Science', 'Sports', 'Technology'].map((category) => <Chip label={category} style={{fontFamily:'PT Sans',padding:10}} color="primary" className={classes.chip} />)}</div>
         </div>
         <Typography style={{fontFamily:'PT Sans'}} variant="body1" className={classes.trySaying}>Try saying: &quot;Give me the latest <strong><em>Business</em></strong> news&quot;</Typography>
         <Divider />
         <div className={classes.infoContainer}>
           <Typography style={{fontFamily:'PT Sans'}} variant="h5">News by Terms</Typography>
-          <div className={classes.chipContainer}>{['Donald Trump', 'Bitcoin', 'PlayStation 5', 'Smartphones'].map((term) => <Chip label={term} style={{fontFamily:'PT Sans'}} color="primary" className={classes.chip} />)}<Chip style={{fontFamily:'PT Sans'}} label="...and more" className={classes.chip} /></div>
+          <div className={classes.chipContainer}>{['Donald Trump', 'Bitcoin', 'PlayStation 5', 'Smartphones'].map((term) => <Chip label={term} style={{fontFamily:'PT Sans'}} color="primary" className={classes.chip} />)}<Chip style={{fontFamily:'PT Sans',padding:10}} label="...and more" className={classes.chip} /></div>
         </div>
         <Typography style={{fontFamily:'PT Sans'}} variant="body1" className={classes.trySaying}>Try saying: &quot;What&apos;s up with <strong><em>PlayStation 5</em></strong>&quot;</Typography>
         <Divider />
         <div className={classes.infoContainer}>
           <Typography style={{fontFamily:'PT Sans'}} variant="h5">News by Sources</Typography>
-          <div className={classes.chipContainer}>{['CNN', 'Wired', 'BBC News', 'Time', 'IGN', 'Buzzfeed', 'ABC News'].map((source) => <Chip label={source} style={{fontFamily:'PT Sans'}} color="primary" className={classes.chip} />)}<Chip style={{fontFamily:'PT Sans'}} label="...and more" className={classes.chip} /></div>
+          <div className={classes.chipContainer}>{['CNN', 'Wired', 'BBC News', 'Time', 'IGN', 'Buzzfeed', 'ABC News'].map((source) => <Chip label={source} style={{fontFamily:'PT Sans'}} color="primary" className={classes.chip} />)}<Chip style={{fontFamily:'PT Sans',padding:10}} label="...and more" className={classes.chip} /></div>
         </div>
         <Typography style={{fontFamily:'PT Sans'}} variant="body1" className={classes.trySaying}>Try saying: &quot;Give me the news from <strong><em>CNN</em></strong>&quot;</Typography>
       </div>

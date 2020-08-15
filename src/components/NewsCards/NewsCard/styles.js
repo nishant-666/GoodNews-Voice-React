@@ -14,11 +14,16 @@ export default makeStyles({
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
-    borderBottom: '10px solid white',
-    borderRadius:30
+    borderTop: '2px solid #ff9800',
+    borderRight: '1px solid #ff9800',
+    borderLeft: '1px solid #ff9800',
+    borderBottom: '2px solid #ff9800',
+    borderRadius:30,
+    padding:15
   },
   activeCard: {
-    borderBottom: '10px solid #22289a',
+    borderTop: '2px solid #ff5722',
+    borderBottom: '4px solid #ff5722',
   },
   grid: {
     display: 'flex',

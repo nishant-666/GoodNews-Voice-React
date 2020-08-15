@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Typography } from '@material-ui/core';
 import wordsToNumbers from 'words-to-numbers';
 import alanBtn from '@alan-ai/alan-sdk-web';
 import './style.css'
@@ -45,12 +44,7 @@ const App = () => {
   return (
     <div>
       <div className={classes.logoContainer}>
-        {newsArticles.length ? (
-          <div className={classes.infoContainer}>
-            <div className={classes.card}><Typography style={{fontFamily:'PT Sans'}} variant="h5" component="h2">Say: <br /><br />Open article number [4]</Typography></div>
-            <div className={classes.card}><Typography style={{fontFamily:'PT Sans'}} variant="h5" component="h2">Say: <br /><br />Go back</Typography></div>
-          </div>
-        ) : null}
+        
         <img src={logo} className={classes.alanLogo} alt="logo" />
       </div>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />

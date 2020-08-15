@@ -27,7 +27,7 @@ export default makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    width: '50%',
+    width: '100%',
     padding: '3%',
     borderRadius: 30,
     color: 'white',
