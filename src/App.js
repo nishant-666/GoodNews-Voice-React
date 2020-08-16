@@ -45,11 +45,7 @@ const App = () => {
   return (
     <div style={{backgroundColor:'#fafafa'}}>
         <Menu/>
-      <div className={classes.logoContainer}>
-    
-        <img src={logo} className={classes.alanLogo} alt="logo" />
-        
-      </div>
+      
       {newsArticles.length ? (
           <div className={classes.infoContainer}>
             <Typography variant="h5" component="h2" style={{fontFamily:'Roboto Slab',marginTop:20,marginBottom:20}}>Say open article 4th to open 4th article!</Typography>

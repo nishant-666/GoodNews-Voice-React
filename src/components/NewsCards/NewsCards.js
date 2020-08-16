@@ -16,7 +16,7 @@ const NewsCards = ({ articles, activeArticle }) => {
   if (!articles.length) {
     return (
       <div>
-         <Typography variant="body2" color="textSecondary" style={{fontFamily:'PT Sans',fontSize:26,textAlign:'center',marginBottom:20,padding:10}} component="h2">
+         <Typography variant="body2" color="textSecondary" style={{fontFamily:'PT Sans',fontSize:26,textAlign:'center',marginBottom:20,padding:10,marginTop:20}} component="h2">
            Welcome to GoodNews.
          </Typography>
          <Typography variant="body2" color="textSecondary" style={{fontFamily:'PT Sans',fontSize:20,textAlign:'center',marginBottom:20,padding:10}} component="h2">
