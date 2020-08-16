@@ -4,6 +4,7 @@ import alanBtn from '@alan-ai/alan-sdk-web';
 import './style.css'
 import logo from './images/GOODNews.png';
 import { NewsCards, Modal } from './components';
+import Menu from './components/menu'
 import useStyles from './styles';
 import { Grid, Grow, Typography } from '@material-ui/core';
 const App = () => {
@@ -43,8 +44,9 @@ const App = () => {
 
   return (
     <div>
+        <Menu/>
       <div className={classes.logoContainer}>
-      
+    
         <img src={logo} className={classes.alanLogo} alt="logo" />
         
       </div>
