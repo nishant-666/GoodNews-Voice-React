@@ -16,9 +16,9 @@ class ExampleMenu extends Component {
     const { activeItem } = this.state
 
     return (
-        <Menu inverted style={{borderRadius:0}} size='large'>
+        <Menu  fluid widths={1} inverted centered style={{borderRadius:0,alignItems:'center'}} size='large'>
         
-        <Menu.Menu position='right'>
+        <Menu.Menu>
           
         <a target="new" href="https://play.google.com/store/apps/details?id=com.goodbook.goodnews" style={{fontSize:16,fontFamily:'PT Sans'}}>
           <Menu.Item

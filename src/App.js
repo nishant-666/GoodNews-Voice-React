@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import wordsToNumbers from 'words-to-numbers';
 import alanBtn from '@alan-ai/alan-sdk-web';
 import './style.css'
-import logo from './images/GOODNews.png';
+import logo from './images/Goodnews.png';
 import { NewsCards, Modal } from './components';
 import Menu from './components/menu'
 import useStyles from './styles';
-import { Grid, Grow, Typography } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 const App = () => {
   const [activeArticle, setActiveArticle] = useState(0);
   const [newsArticles, setNewsArticles] = useState([]);
@@ -43,7 +43,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{backgroundColor:'#fafafa'}}>
         <Menu/>
       <div className={classes.logoContainer}>
     
